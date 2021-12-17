@@ -19,4 +19,4 @@ EOF
 
 export FLASK_APP=hello
 export FLASK_ENV=development
-nohup flask run &
+nohup flask run -h 0.0.0.0 &
